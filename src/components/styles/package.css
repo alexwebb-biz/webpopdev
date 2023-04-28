@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (min-width: 1024px) {
+  .package-container {
+    background-color: white;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-top: 5vh;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+  }
+  .package-container .package-header {
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 2px;
+    padding-top: 1.8vh;
+    padding-bottom: 1.8vh;
+  }
+  .package-container .package-header p {
+    color: black;
+  }
+  .package-container .package-price-container {
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: grey;
+    padding-top: 1.8vh;
+    padding-bottom: 1.8vh;
+  }
+  .package-container .package-price-container .package-price {
+    color: #03a9f4;
+  }
+  .package-container .package-price-container .package-price .one-time-fee {
+    padding: 0;
+    margin: 0;
+  }
+  .package-container .package-info {
+    padding-top: 1.8vh;
+    padding-bottom: 1.8vh;
+  }
+  .package-container .package-info ul {
+    width: 90%;
+    margin-left: 5%;
+    line-height: 30px;
+  }
+  .package-container .package-info ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+  .package-container .package-info .enquiry-btn {
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #03a9f4;
+    color: white;
+    border-style: none;
+    margin-top: 1.8vh;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .package-container {
+    background-color: white;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5vh;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .package-container .package-header {
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 2px;
+    padding-top: 1.8vh;
+    padding-bottom: 1.8vh;
+  }
+  .package-container .package-header p {
+    color: black;
+  }
+  .package-container .package-header .package-title {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .package-container .package-price-container {
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: grey;
+    padding-top: 1.8vh;
+    padding-bottom: 1.8vh;
+  }
+  .package-container .package-price-container .package-price {
+    color: #03a9f4;
+  }
+  .package-container .package-price-container .package-price .one-time-fee {
+    padding: 0;
+    margin: 0;
+  }
+  .package-container .package-info {
+    padding-top: 1.8vh;
+    padding-bottom: 1.8vh;
+  }
+  .package-container .package-info ul {
+    width: 90%;
+    margin-left: 5%;
+    line-height: 30px;
+  }
+  .package-container .package-info ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+  .package-container .package-info .enquiry-btn {
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #03a9f4;
+    color: white;
+    border-style: none;
+    margin-top: 1.8vh;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=package.css.map */

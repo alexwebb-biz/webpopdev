@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 1024px) {
+  .adminLoginPage {
+    height: 90vh;
+    position: relative;
+  }
+  .adminLoginPage .form-container {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .adminLoginPage .form-container h1 {
+    text-align: center;
+  }
+  .adminLoginPage .form-container input {
+    width: 70%;
+    margin-left: 15%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    border-style: solid;
+    border-width: 3px;
+    -o-border-image: linear-gradient(#03a9f4, #f6b32a) 1;
+       border-image: -webkit-gradient(linear, left top, left bottom, from(#03a9f4), to(#f6b32a)) 1;
+       border-image: linear-gradient(#03a9f4, #f6b32a) 1;
+    -webkit-transition: 1s;
+    transition: 1s;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .adminLoginPage .form-container input:focus {
+    -o-border-image: linear-gradient(45deg, #03a9f4, #f6b32a) 1;
+       border-image: linear-gradient(45deg, #03a9f4, #f6b32a) 1;
+    outline: none;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .adminLoginPage .form-container button {
+    width: 40%;
+    margin-left: 30%;
+    border-style: none;
+    margin-top: 1rem;
+    background-image: linear-gradient(45deg, #03a9f4, #f6b32a);
+    color: white;
+    padding: 12px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .adminLoginPage {
+    height: 80vh;
+    position: relative;
+  }
+  .adminLoginPage .form-container {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .adminLoginPage .form-container h1 {
+    text-align: center;
+  }
+  .adminLoginPage .form-container input {
+    width: 60%;
+    margin-left: 20%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    border-style: solid;
+    border-width: 3px;
+    -o-border-image: linear-gradient(#03a9f4, #f6b32a) 1;
+       border-image: -webkit-gradient(linear, left top, left bottom, from(#03a9f4), to(#f6b32a)) 1;
+       border-image: linear-gradient(#03a9f4, #f6b32a) 1;
+    -webkit-transition: 1s;
+    transition: 1s;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .adminLoginPage .form-container input:focus {
+    -o-border-image: linear-gradient(45deg, #03a9f4, #f6b32a) 1;
+       border-image: linear-gradient(45deg, #03a9f4, #f6b32a) 1;
+    outline: none;
+    width: 70%;
+    margin-left: 15%;
+  }
+  .adminLoginPage .form-container button {
+    width: 40%;
+    margin-left: 30%;
+    border-style: none;
+    margin-top: 1rem;
+    background-image: linear-gradient(45deg, #03a9f4, #f6b32a);
+    color: white;
+    padding: 12px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}
+/*# sourceMappingURL=AdminLogin.css.map */

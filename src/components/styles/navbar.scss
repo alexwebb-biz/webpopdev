@@ -1,0 +1,103 @@
+@import '../../variables';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+*{ 
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background: $backgroundTwo;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    img{
+        width:35px;
+    }
+    
+    ul{
+        li{
+            float:left;
+            list-style-type:none;
+            margin:2rem 2rem;
+            color:$primary;
+            text-decoration:none;
+            color:black;
+         
+
+            &:hover{
+                color:$secondary;
+            }
+        }
+    }
+
+    .nav-btn{
+        padding:5px;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+        outline:none;
+        color:$primary;
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    header{
+        height:60px;
+        position: fixed;
+        width:100%;
+        z-index:999;
+        box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        .nav-btn{
+            visibility: visible;
+            opacity:1;
+            margin-top:0.6rem;
+        }
+
+        nav{
+            position: fixed; 
+            top:0;
+            left:0;
+            height:100%;
+            width:100%; 
+            max-height:100vh;
+            display:flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content: center;
+            gap: 1.5rem;
+            background-color:$backgroundTwo;
+            transition: 0.6s;
+            transform: translateX(-100vw);   
+            z-index:999;
+            
+            ul{
+                li{
+                    float:none;
+                }
+            }
+
+            
+        }
+
+        .responsive_nav{
+            transform:none;
+        }
+
+        .nav-close-btn {
+            position: absolute;
+            top:0.6rem;
+            right:2rem;
+            font-size:1.5rem;
+        }
+    }
+}

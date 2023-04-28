@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+html .packages, body .packages {
+  height: 100%;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  background: #07a59d;
+}
+
+html .packages h1, body .packages h1 {
+  color: white;
+  text-align: center;
+}
+
+html .packages h4, body .packages h4 {
+  width: 90%;
+  margin-left: 5%;
+  padding-top: 3%;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1024px) {
+  .packages {
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .packages .package {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .packages .package .package-first, .packages .package .package-second, .packages .package .package-third {
+    width: 32%;
+    margin-left: 1%;
+  }
+}
+/*# sourceMappingURL=packages.css.map */

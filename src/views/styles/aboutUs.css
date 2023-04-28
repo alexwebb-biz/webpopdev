@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+  .AboutUsSection {
+    height: 100%;
+    padding-bottom: 9vh;
+    background: #fff;
+    width: 100%;
+    padding-top: 9vh;
+    overflow: hidden;
+  }
+  .AboutUsSection .container {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .AboutUsSection .col-50 {
+    width: 50%;
+    float: left;
+  }
+  .AboutUsSection h3 {
+    padding-top: 6vh;
+    padding-bottom: 1vh;
+  }
+  .AboutUsSection h1, .AboutUsSection h3, .AboutUsSection h4 {
+    width: 90%;
+  }
+  .AboutUsSection img.main-img {
+    width: 50%;
+    margin-left: 25%;
+  }
+  .AboutUsSection button {
+    background-color: #03a9f4;
+    font-size: 1rem;
+    border: none;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    margin: auto;
+    width: 40%;
+    margin-top: 6vh;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .AboutUsSection {
+    height: 100%;
+    padding-bottom: 9vh;
+    background: #fff;
+    width: 100%;
+    padding-top: 9vh;
+    text-align: center;
+    overflow: hidden;
+  }
+  .AboutUsSection h3 {
+    padding-top: 6vh;
+    padding-bottom: 1vh;
+  }
+  .AboutUsSection h1, .AboutUsSection h3, .AboutUsSection h4 {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .AboutUsSection img.main-img {
+    width: 130%;
+    overflow-x: hidden;
+    margin-left: 10%;
+    margin-top: 8vh;
+  }
+  .AboutUsSection button {
+    background-color: #03a9f4;
+    font-size: 1rem;
+    border: none;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    margin: auto;
+    width: 40%;
+    margin-top: 6vh;
+  }
+}
+/*# sourceMappingURL=aboutUs.css.map */

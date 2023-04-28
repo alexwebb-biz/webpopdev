@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('../../_variables.scss');
+
+@mixin boxShadow {
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+html, body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (min-width:1024px){
+    .contactPage{
+        background-color:#fff;
+        padding-bottom:5vh;
+        width:80%;
+        margin-left:10%;
+        position: relative;
+        overflow-x:hidden;
+        margin-top:15vh;
+        text-align: center;
+        max-width:1920px;
+
+        h4{
+            width:90%;
+            margin-left:5%;
+            padding-top:1%;
+            padding-bottom:3%;
+        }
+        
+        .contactPageOption-full{
+            background-color:#07a59d;
+            width:97.5%; 
+            @include boxShadow;
+            border-radius:5px;
+            margin-left:1.15%;
+            margin-right:1.15%;
+
+            float:left;
+            padding:30px;
+            height:100%;
+            color:white;
+
+            .iconOption{    
+                font-size:3rem;
+            }
+    
+            h3{
+                padding:15px 0px;
+            }
+    
+            h3.contactTitle{
+                margin-top:3vh;
+            }
+    
+            h5.contactSubTitle{
+                margin-bottom:3vh;
+            }
+    
+            button{
+                font-size:1rem;
+                padding:7px;
+                width:25%;
+                margin-top:30px;
+                background-color:white;
+                border:none;
+                color:black;
+    
+                @include boxShadow;
+            }
+        }
+
+        .contactPageOption{
+            background-color:#07a59d;
+            width: 31%;
+            margin-left:1.15%;
+            margin-right:1.15%;
+            float:left;
+            margin-bottom:3%;
+            padding:30px;
+
+            border-radius: 5px;
+            color:white;
+    
+            @include boxShadow;
+    
+           
+    
+            .iconOption{    
+                font-size:3rem;
+            }
+    
+            h3{
+                padding:15px 0px;
+            }
+    
+            h3.contactTitle{
+                margin-top:3vh;
+            }
+    
+            h5.contactSubTitle{
+                margin-bottom:3vh;
+            }
+    
+            button{
+                font-size:1rem;
+                padding:7px;
+                width:50%;
+                margin-top:30px;
+                background-color:white;
+                border:none;
+                color:black;
+    
+                @include boxShadow;
+            }
+        }
+    
+        form{
+            text-align:center;
+            align-items: center;
+            justify-content: center;    
+            display:block;
+            width:100%;
+            margin-top:2rem;
+    
+            input[type=text], input[type=email], textarea{
+                width:100%;
+                padding:10px;
+                outline:none;
+                border:none;
+                border-radius:5px;
+                margin-top:1rem;
+                font-size:1rem;
+    
+                @include boxShadow;
+                &:focus{
+                    outline:none;
+                    border:none;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .contactPage{
+        background-color:#fff;
+        padding-bottom:5vh;
+        width:100%;
+        position: relative;
+        overflow-x:hidden;
+        padding-top:15vh;
+        text-align: center;
+    
+        h4{
+            width:90%;
+            margin-left:5%;
+            padding-top:3%;
+        }
+    
+        .contactPageOption, .contactPageOption-full{
+            background-color:#07a59d;
+            width: 90%;
+            margin-left:5%;
+            margin-bottom:3%;
+            padding:30px;
+            border-radius: 5px;
+            color:white;
+    
+            @include boxShadow;
+    
+            &:first-of-type{
+                margin-top:6vh;
+            }
+    
+            .iconOption{    
+                font-size:3rem;
+            }
+    
+            h3{
+                padding:15px 0px;
+            }
+    
+            h3.contactTitle{
+                margin-top:3vh;
+            }
+    
+            h5.contactSubTitle{
+                margin-bottom:3vh;
+            }
+    
+            button{
+                font-size:1rem;
+                padding:7px;
+                width:50%;
+                margin-top:30px;
+                background-color:white;
+                border:none;
+                color:black;
+    
+                @include boxShadow;
+            }
+        }
+    
+        form{
+            text-align:center;
+            align-items: center;
+            justify-content: center;    
+            display:block;
+            width:100%;
+    
+    
+            input[type=text], input[type=email], textarea{
+                width:100%;
+                padding:10px;
+                outline:none;
+                border:none;
+                border-radius:5px;
+                margin-top:1rem;
+                font-size:1rem;
+    
+                @include boxShadow;
+                &:focus{
+                    outline:none;
+                    border:none;
+                }
+            }
+        }
+    }
+}
